@@ -1,0 +1,176 @@
+---
+- name: Mitchell Hashimoto
+  twitter: mitchellh
+  github: mitchellh
+  gravatar: 54079122b67de9677c1f93933ce8b63a
+  title: To be announced
+  description: |-
+    Coming soon.
+  biography: Coming soon.
+- name: Bridget Kromhout
+  twitter: bridgetkromhout
+  github: bridgetkromhout
+  gravatar: 10ece5ca354c7cf98a810ef4f457489a
+  title: How I Learned to Stop Worrying and Love DevOps
+  description: |-
+    I was a college-student BOFH, an ISP sysadmin, and an academic IT manager. If I wanted a curmudgeonly sysadmin, I could just look in a mirror. Most developers were unlikely to be granted root on any systems whatsoever, and servers were carefully hand-whittled works of art. You know, The Way Things Were.
+
+    Moving to a role doing operations at a developer-centric startup was both a culture shock and a great learning experience. I'll discuss what worked for me (and what was challenging!) in terms of my transition to a DevOps practice. Spoiler alert: change is scary, but awesome developers on the team make it much easier for an old-school sysadmin to be assimilated into the DevOps of Borg.
+  biography: 'Bridget Kromhout does operations at a Minneapolis social commerce startup
+    called 8thBridge, after years as a sysadmin at ISPs and in academia. Favorite
+    AWS service: ElasticMapReduce. OS on home servers: FreeBSD. Config management
+    tool of choice: Chef. Words written for SysAdvent about HBase on EMR: ~4200. Current
+    object of obsession: monitoring all the things with Graphite.'
+- name: Jason Rohwedder
+  twitter: jasonrohwedder
+  github: jro
+  gravatar: 298089e6327c40635e3ae5390a064d8b
+  title: What your Mother never told you about Automating Security
+  description: 'Your mother might be cooler than mine, but security is hard work.
+    Heavily automated environments like "the cloud" bring both new strategies and
+    new challenges. We''ll work through some real-life problems and solutions; topics
+    maybe your mom forgot to mention. Off-topic topics will include: controlling and
+    tracking network access; 2-factor authentication and you; security-minded logging
+    and metrics, and the importance of using protection for data at rest. There will
+    be code.'
+  biography: Jason Rohwedder is Risk I/O's resident all-purpose geek. He's spent time
+    wearing hats in Development, Security and Operations. You're just as likely to
+    find him herding cats and chasing a toddler as programming Ruby or staring at
+    packet captures.
+- name: Paul Reed
+  twitter: SoberBuildEng
+  github: preed
+  gravatar: 4bb4c17b696d07cae8c447e7698fd063
+  title: '"DevOps" in a Post-DevOps World'
+  description: |-
+    Has "DevOps" jumped the shark?
+
+    Some say yes; others say 2014 will be the year DevOps dons its Fonz-esque leather jacket. Whichever you believe, the marketing feeding frenzy has begun and the dilution of the "DevOps" concept to include everything (and simultaneously mean nothing) is palpable.
+
+    But DevOps has a dirty secret: many of its core tenets are ancient computer history: configuration management, version control, automated builds, and metrics-driven decision making: all old news. So what caused these long-known best practices to congeal and pop together, becoming part of the industry consciousness? And why have some been so successful at implementing it in their organizations while others continue to struggle?
+
+    This talk deconstructs the meta-elements of DevOps that made it resonate so strongly with so many and allowed those familiar DevOps poster children&mdash;Netflix, Etsy, and others&mdash;to deploy the methodology with such success in their businesses. We'll go beyond DevOps' classical CAMS (culture, automation, metrics, and sharing) definition to discover what exactly what made DevOps relevant, and what about it is so timeless and foundational that it will make whatever-follows-DevOps relevant, too.
+  biography: J. Paul Reed has over a decade of experience in the trenches as a build/release
+    and tools engineer, working with such organizations as VMware, Mozilla, and Symantec.
+    In 2012, he founded Release Engineering Approaches, a consultancy incorporating
+    a host of tools and techniques to help organizations "Simply Ship. Every time."
+    He's been fortunate enough to work across a number of industries, from financial
+    services to cloud-based infrastructure, with teams from 2 to 200. Paul is also
+    a founding host of The Ship Show, a twice-monthly podcast tackling topics related
+    to build engineering, DevOps, and release management.
+- name: James Turnbull
+  twitter: kartar
+  github: jamtur01
+  gravatar: caaec84a4742659b051c60785c34bd56
+  title: Introduction to Docker
+  description: "Docker is an open source LXC-based container service that was released
+    in March 2013. It makes it easy to create lightweight, portable, and self-sufficient
+    containers. Containers which you can use to test applications, build and run services
+    or even to build your own platform-as-a-service. Learn why Docker matters, how
+    to get started with it and see some cool examples of Docker in action. This talk
+    will explain: \n\n* Why Docker?\n* Installing Docker\n* Getting started with Docker\n*
+    Demo some cool Docker use cases\n\nIt'll also discuss the right places to use
+    Docker and try to answer some of the questions around using Docker with other
+    tools like Puppet and Chef. By the end of the talk you'll see both how Docker
+    is useful and how to make use of it."
+  biography: James Turnbull is the author of seven technical books about open source
+    software, including a new book on Docker, and a long-time member of the open source
+    community. James authored the first (and second!) books about Puppet. He works
+    for Docker as VP of Services. He was previously VP of Engineering at Venmo and
+    VP of Technical Operations in Puppet Labs. James speaks regularly at conferences
+    including OSCON, Linux.conf.au, FOSDEM, OpenSourceBridge, DevOpsDays and a number
+    of others. He is a past president of Linux Australia, a former committee member
+    of Linux Victoria, was Treasurer for Linux.conf.au 2008, and serves on the program
+    committee of Linux.conf.au and OSCON.
+- name: Jason Roelofs
+  twitter: jasonroelofs
+  github: jasonroelofs
+  gravatar: 2ede8c8483953513418849ba0c68278e
+  title: Bridging the DevOps Islands with Pantry
+  description: DevOps is a fascinating, quickly growing field. With Chef, Puppet,
+    Ansible, Salt, Packer, Docker, Vagrant, AWS, and others, there are many ways to
+    get an infrastructure up and running. However, it is quickly evident to those
+    entering this field that choosing one tool often excludes all others or requires
+    significant investment in custom development to fit the chosen tool(s) into the
+    intended infrastructure. In this talk I'll be introducing Pantry, a tool-agnostic
+    provisioning service we've been building and running at Collective Idea. Pantry's
+    job is to facilitate communication between developers and their infrastructure,
+    ease the burden on setting up new infrastructure, and to allow seamless use of
+    multiple DevOps tools together. I will be talking about how Pantry came to be,
+    the ideas and technology it uses, the problems Pantry solves for us at Collective
+    Idea and what the future will bring.
+  biography: A Ruby developer for seven-plus years, Jason has also been an operations
+    guy for most of that time; building, deploying, and maintaining numerous Rails
+    applications, low and high traffic alike. Over that time he's learned many do-s
+    and don't-s of the Operations world and is working on tools to help others build
+    the best infrastructures possible. Jason currently works at Collective Idea building
+    custom software and maintaining the Harmony CMS. Outside of work Jason has built
+    and released numerous Open Source projects and writes occasionally at jasonroelofs.com
+    and collectiveidea.com.
+- name: Phil Cohen
+  twitter: phlipper
+  github: phlipper
+  gravatar: 6485df316182713aeeaa7f1e3e053632
+  title: 'Cooking at Shopify: Taming a busy kitchen with many Chefs'
+  description: We use Chef to manage a large and rapidly growing infrastructure at
+    Shopify. Our cookbooks are open to development not only by our Operations Team,
+    but by all 200+ developers at the company, and we manage to maintain an environment
+    of continuous delivery and continuous improvement for our infrastructure. I’ll
+    talk about some of our workflows, internal tooling, and security considerations
+    when operating at our scale.
+  biography: Phil lives and enjoys life in the mountains near Lake Tahoe with his
+    wife, 3 kids, 2 cats, and a dog. He is an avid participant in several open source
+    communities, a musician, a teacher, a mentor, and currently works as an Operations
+    Engineer with Shopify. He is always interested in remote pairing and playing word
+    games.
+- name: Paul Hinze
+  twitter: phinze
+  github: phinze
+  gravatar: bc0d6292712712084efc1ae532eb767c
+  title: Actually Using Vagrant Everyday
+  description: |-
+    We all know that there are benefits to using Vagrant to push development to virtual machines, but it takes so much work to set up. How can we make it easier for both dev and ops to use a Vagrant-based workflow day-to-day?
+
+    We’ll do a quick review of what Vagrant can do to make your life better, we’ll talk about real world examples of using Vagrant in both dev and ops, and most importantly, we’ll see that switching to Vagrant isn’t as tough as it seems. And voilà--a Vagrant you can really use!
+  biography: Paul has been Ruby-ing for over five years and Puppet-ing with the ops
+    kids for the last three. He created a project called “homebrew-cask” that allows
+    managing Mac apps with a CLI workflow, and he recently joined the core team of
+    Vagrant. He works for Instructure Chicago where he lives with his weirdo dogs,
+    weirdo girlfriend, and his collection of various cables and adapters.
+- name: Aaron Gibson
+  twitter: gibsonaaron
+  github: biggiemac
+  gravatar: 5ab28b021ac6a668d43cfa9431ad95ff
+  title: I Serve No Master!
+  description: Typical Puppet users implement this tool in its traditional role of
+    client and master. At Adaptive Computing we build environments for developers all
+    day long using OpenStack, as such the traditional model of client to server for
+    Puppet just didn't fit. For the longest time I thought I was doing it wrong,
+    however Puppet can be implemented without the need of a puppetmaster. The
+    presentation will focus on utilizing puppet in a masterless state allowing the
+    rapid configuration for your environment with no need for the cruft of managing a
+    traditional puppet master. There are pros and cons that will be explored as well
+    as detailed examples of how Adaptive took environment installs from hours of
+    developers time down to about 10 minutes.
+  biography: All the cool kids talk about Puppet in client server models. Some release
+    cycles and environments are not traditional DevOps setups, I don't deploy 100
+    times a day, but that doesn't mean DevOps or the tools used to implement DevOps
+    are dead to the 'rest' of us. The release cycle I take part in is just over 6
+    months long, yes really. The dev's I help traditionally spent days of time standing
+    up our stack for dev work, once I introduced Puppet and overcame the my masterless
+    phobia my dev's can stand up their test env's in minutes. This then spills over
+    to QA, Sales, and Professional Services. There is value in understanding the role
+    of Puppet in a masterless setup, it might just win you over!
+- name: Chris Gaffney
+  twitter: gaffneyc
+  github: gaffneyc
+  gravatar: 5e237658f2911fef1ee9e8f8fab89688
+  title: The Immutable Pipeline
+  description: |-
+    Over the last couple years we've gotten better tooling for building consistent servers. With the introduction of Packer this last year, it's become easier to automate the process of building consistent images. Thinking of images as compiled (immutable), configurable, runnable, containers opens up some interesting possibilities.
+
+    In this talk I'll be introducing the Immutable Pipeline, a process our team uses to ensure consistency between staging and production. I will also be covering ways we test our images before they move to production.
+  biography: |-
+    Raised within sight of the woods and only taught to computer by a gang of roving technologists, Chris comes to the operations world from years as a software developer. With years of Ruby and months of Go under his belt, Chris is a systems developer and (dev)ops lead at Collective Idea. When not enticing his coworkers into playing board games, he is often found traveling as far away from home as possible.
+
+    :wq
